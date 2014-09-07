@@ -1,7 +1,7 @@
 Web Screensavers
 ================
 
-Create Screensavers using web technologies, (currently Windows only)
+Create Screensavers using web technologies via [node-webkit](https://github.com/rogerwang/node-webkit), (currently Windows only)
 
 ![alt text](http://i.imgur.com/XeaDlar.png "Demo Image")
 
