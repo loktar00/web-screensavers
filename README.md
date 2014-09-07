@@ -3,6 +3,8 @@ Web Screensavers
 
 Create Screensavers using web technologies, (currently Windows only)
 
+![alt text](http://i.imgur.com/XeaDlar.png "Demo Image")
+
 Setup
 -----
 
