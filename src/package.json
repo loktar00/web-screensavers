@@ -1,0 +1,11 @@
+{
+  "name": "nw-demo",
+  "main": "screensaver.html",
+  "window" : {
+        "frame": false,
+        "resizable": false,
+        "always-on-top": true,
+        "toolbar": false
+  },
+  "chromium-args": "--enable-usermedia-screen-capturing"
+}

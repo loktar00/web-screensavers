@@ -1,0 +1,28 @@
+<!DOCTYPE  html>
+<html>
+<head>
+    <style type="text/css">
+        html, body{
+            overflow: hidden;
+        }
+        canvas{
+            position: absolute;
+            top:0;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <!-- canvas that has an image of the desktop -->
+    <canvas id="desktopCanvas"></canvas>
+
+    <!-- canvas for the snow, or whatever else on top of the desktop -->
+    <canvas id="demoCanvas"></canvas>
+
+    <!-- video element thats used to take a screenshot of the users desktop -->
+    <video style="display:none" autoplay/>
+
+    <script src="screensaver.js"></script>
+    <script src="snow.js"></script>
+</body>
+</html>
