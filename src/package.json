@@ -3,7 +3,7 @@
   "main": "screensaver.html",
   "window" : {
         "frame": false,
-        "resizable": false,
+        "resizable": true,
         "always-on-top": true,
         "toolbar": false
   },

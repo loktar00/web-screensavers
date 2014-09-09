@@ -91,6 +91,7 @@ video.addEventListener("play", function() {
     nwin.show();
     nwin.resizeTo(screenWidth, screenHeight);
     nwin.moveTo(0, 0);
+    ngui.Window.get().enterKioskMode();
     desktopCtx.drawImage(video,0,0);
     // We just need the first frame for a screenshot so stop streaming
     mediaStream.stop();

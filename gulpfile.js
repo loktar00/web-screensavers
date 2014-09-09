@@ -21,4 +21,11 @@ gulp.task('build', ['zip'],
         ])
 );
 
+gulp.task('build-nix', ['zip'],
+    shell.task([
+        'cp -u node_modules/nodewebkit/nodewebkit/* dist/',
+        'cat dist/nw dist/screensaver.nw > dist/screensaver && chmod +x dist/screensaver'
+        ], {ignoreErrors: true})
+    );
+
 gulp.task('default', ['build']);
